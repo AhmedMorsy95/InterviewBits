@@ -1,3 +1,4 @@
+package Trees;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,7 +9,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 import java.util.Queue;
-public class Solution {
+public class VerticalOrderTraversal {
     ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
 	Map<Integer,ArrayList<Integer>> map = new TreeMap<Integer,ArrayList<Integer>>();
 	void bfs(TreeNode A,Integer dep){
